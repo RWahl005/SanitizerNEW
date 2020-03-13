@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="browse.css">
 </head>
 <body>
+  <div class="w3-bar w3-blue">
+        <a href="./index.html" class="w3-bar-item w3-button w3-mobile">Home</a>
+        <a href="./browse.php" class="w3-bar-item w3-button w3-mobile">Browse</a>
+        <a href="./about.html" class="w3-bar-item w3-button w3-mobile">About</a>
+    </div>
     <main>
         <?php
             $images = array("https://officedepot.scene7.com/is/image/officedepot/647695_o01_purell_advanced_hand_sanitizer_soothing_gel?$OD%2DLarge$&wid=450&hei=450", "https://pics.drugstore.com/prodimg/515419/900.jpg",
